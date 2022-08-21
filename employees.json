@@ -1,0 +1,49 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "salary": "900",
+      "increase": false,
+      "bounty": false
+    },
+    {
+      "id": "2",
+      "name": "John Kovalski",
+      "salary": "950",
+      "increase": false,
+      "bounty": false
+    },
+    {
+      "id": "25j7BG1SnAqul23_fvJyZ",
+      "name": "Pedro",
+      "salary": "1500",
+      "increase": true,
+      "bounty": false
+    },
+    {
+      "id": "FJ9XL8F0C_j472m0g0bwn",
+      "name": "Ivan Nestorov",
+      "salary": "2500",
+      "increase": false,
+      "bounty": false
+    }
+  ],
+  "filters": {
+    "all": [
+      {
+        "id": "1",
+        "name": "All employees"
+      },
+      {
+        "id": "2",
+        "name": "For promotion"
+      },
+      {
+        "id": "3",
+        "name": "Salary more than 1000$"
+      }
+    ],
+    "activeFilter": "All employees"
+  }
+}
